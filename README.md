@@ -16,22 +16,24 @@ This website aims to provide financial assistance to students who need help with
 # Installation
 To install this website on your local machine, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/student-funding-website.git
-Navigate to the project directory: cd student-funding-website
-Open the index.html file in your web browser.
-Usage
+1. Clone the repository: git clone https://github.com/Bandile02/Next-Funding.git
+2. Navigate to the project directory: cd student-funding-website
+3. Open the index.html file in your web browser.
+
+# Usage
 To use this website, follow these steps:
 
-Fill out the student application form with your personal and educational information.
-Submit the application form by clicking the "Submit" button.
-Wait for an email notification from the administrator regarding the status of your application.
+1. Fill out the student application form with your personal and educational information.
+2. Submit the application form by clicking the "Submit" button.
+3. Wait for an email notification from the administrator regarding the status of your application.
+
 Administrators can use their email and password to log in to the admin dashboard. Once logged in, they can view and manage student applications.
 
 # Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository
-Create a new branch: git checkout -b my-feature-branch
-Make your changes and commit them: git commit -am 'Add some feature'
-Push to the branch: git push origin my-feature-branch
-Submit a pull request
+1. Fork the repository
+2. Create a new branch: git checkout -b my-feature-branch
+3. Make your changes and commit them: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-feature-branch
+5. Submit a pull request
