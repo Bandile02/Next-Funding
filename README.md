@@ -2,16 +2,16 @@
 This website aims to provide financial assistance to students who need help with their education expenses. The website is designed using HTML, CSS, and JavaScript.
 
 # Table of Contents
-Features
-Installation
-Usage
-Contributing
-License
+- Features
+- Installation
+- Usage
+- Contributing
+- License
 
 # Features
-Student Application: Students can apply for financial assistance by filling out an application form on the website. The application form collects information such as the student's name, email address, school, and the amount of funding requested.
-Admin Dashboard: Administrators can log in to the website and access a dashboard that allows them to view and manage student applications. They can approve or reject applications, and also view the status of each application.
-Email Notifications: Students receive email notifications when their application is approved or rejected. Administrators also receive email notifications when a new application is submitted.
+- Student Application: Students can apply for financial assistance by filling out an application form on the website. The application form collects information such as the student's name, email address, school, and the amount of funding requested.
+- Admin Dashboard: Administrators can log in to the website and access a dashboard that allows them to view and manage student applications. They can approve or reject applications, and also view the status of each application.
+- Email Notifications: Students receive email notifications when their application is approved or rejected. Administrators also receive email notifications when a new application is submitted.
 
 # Installation
 To install this website on your local machine, follow these steps:
