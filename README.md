@@ -10,8 +10,7 @@ This website aims to provide financial assistance to students who need help with
 
 # Features
 - Student Application: Students can apply for financial assistance by filling out an application form on the website. The application form collects information such as the student's name, email address, school, and the amount of funding requested.
-- Admin Dashboard: Administrators can log in to the website and access a dashboard that allows them to view and manage student applications. They can approve or reject applications, and also view the status of each application.
-- Email Notifications: Students receive email notifications when their application is approved or rejected. Administrators also receive email notifications when a new application is submitted.
+- Testing Dashboard: Students can log in to the website and access a dashboard that allows them to view and student applications. They can see if approved or rejected applications, and also view the status of each application.
 
 # Installation
 To install this website on your local machine, follow these steps:
