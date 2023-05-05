@@ -1,5 +1,5 @@
 # Next-Funding
-This website aims to provide financial assistance to students who need help with their education expenses. The website is designed using HTML, CSS, and JavaScript.
+This website aims to provide financial assistance to students who need help with their education expenses. The website is designed using HTML, CSS, PHP and JavaScript.
 
 # Table of Contents
 - Features
@@ -16,7 +16,7 @@ This website aims to provide financial assistance to students who need help with
 To install this website on your local machine, follow these steps:
 
 1. Clone the repository: git clone https://github.com/Bandile02/Next-Funding.git
-2. Navigate to the project directory: cd student-funding-website
+2. Navigate to the project directory: cd next-funding
 3. Open the index.html file in your web browser.
 
 # Usage
