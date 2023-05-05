@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="myscript.js"></script>
+    <title>Questions</title>
+</head>
+<body>
+	<div class="Question">
+		<h1>Answer the Few Questions Below</h1>
+		<p>How satisfied are you with our product?</p>
+		<input type="radio" id="disagree-strongly" name="satisfaction" value="1">
+		<label for="disagree-strongly">Strongly Disagree</label>
+		<input type="radio" id="disagree" name="satisfaction" value="2">
+		<label for="disagree">Disagree</label>
+		<input type="radio" id="agree" name="satisfaction" value="4" checked>
+		<label for="agree">Agree</label>
+		<input type="radio" id="agree-strongly" name="satisfaction" value="5">
+		<label for="agree-strongly">Strongly Agree</label>
+
+		<p>How likely are you to recommend our product to a friend?</p>
+		<input type="radio" id="not-likely" name="recommendation" value="1">
+		<label for="not-likely">Not Likely</label>
+		<input type="radio" id="somewhat-likely" name="recommendation" value="3">
+		<label for="somewhat-likely">Somewhat Likely</label>
+		<input type="radio" id="very-likely" name="recommendation" value="5" checked>
+		<label for="very-likely">Very Likely</label><br>
+
+		<p>How easy was it to use our website?</p>
+		<input type="radio" id="not-easy" name="usability" value="1">
+		<label for="not-easy">Not Easy</label>
+		<input type="radio" id="somewhat-easy" name="usability" value="3">
+		<label for="somewhat-easy">Somewhat Easy</label>
+		<input type="radio" id="very-easy" name="usability" value="5" checked>
+		<label for="very-easy">Very Easy</label><br><br>
+
+		
+	<button onclick="submitAnswers()" class="btn">Submit</button>
+
+	</div>
+
+</body>
+</html>

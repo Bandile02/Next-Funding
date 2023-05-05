@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+</head>
+<body>
+  <h1>Question 1</h1>
+  <p>How satisfied are you with our product?</p>
+  <input type="radio" id="disagree-strongly" name="satisfaction" value="1">
+  <label for="disagree-strongly">Strongly Disagree</label>
+  <input type="radio" id="disagree" name="satisfaction" value="2">
+  <label for="disagree">Disagree</label>
+  <input type="radio" id="agree" name="satisfaction" value="4" checked>
+  <label for="agree">Agree</label>
+  <input type="radio" id="agree-strongly" name="satisfaction" value="5">
+  <label for="agree-strongly">Strongly Agree</label><br>
+
+  <h1>Question 2</h1>
+  <p>How likely are you to recommend our product to a friend?</p>
+  <input type="radio" id="not-likely" name="recommendation" value="1">
+  <label for="not-likely">Not Likely</label>
+  <input type="radio" id="somewhat-likely" name="recommendation" value="3">
+  <label for="somewhat-likely">Somewhat Likely</label>
+  <input type="radio" id="very-likely" name="recommendation" value="5" checked>
+  <label for="very-likely">Very Likely</label><br>
+
+  <h1>Question 3</h1>
+  <p>How easy was it to use our website?</p>
+  <input type="radio" id="not-easy" name="usability" value="1">
+  <label for="not-easy">Not Easy</label>
+  <input type="radio" id="somewhat-easy" name="usability" value="3">
+  <label for="somewhat-easy">Somewhat Easy</label>
+  <input type="radio" id="very-easy" name="usability" value="5" checked>
+  <label for="very-easy">Very Easy</label><br>
+
+  <button onclick="submitAnswers()">Submit</button>
+
+  <script>
+    function submitAnswers() {
+      var satisfactionValue = document.querySelector('input[name="satisfaction"]:checked').value;
+      var recommendationValue = document.querySelector('input[name="recommendation"]:checked').value;
+      var usabilityValue = document.querySelector('input[name="usability"]:checked').value;
+      console.log("Satisfaction value: " + satisfactionValue);
+      console.log("Recommendation value: " + recommendationValue);
+      console.log("Usability value: " + usabilityValue);
+    }
+  </script>
+</body>
+</html>
+
